@@ -1,0 +1,199 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    color: #717171;
+  }
+  header {
+    height: 5rem;
+    border-bottom: 4px solid #095ba5;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+  }
+  nav {
+    display: flex;
+    justify-items: center;
+    padding-left: 2rem;
+  }
+  nav > a {
+    text-decoration: none;
+    color: rgb(9, 91, 165);
+    margin: 1em;
+  }
+  nav > a:hover {
+    text-decoration: underline;
+  }
+  nav > span,
+  i {
+    margin: 1em 0.5em;
+  }
+  
+  main {
+    padding: 2rem;
+    background-color: #f0f3f4;
+    min-height: calc(100vh - 16rem);
+  }
+  form {
+    display: flex;
+    width: 100%;
+  }
+  form input[readonly],
+  select[readonly],
+  textarea[readonly] {
+    pointer-events: none;
+    touch-action: none;
+    background: #eee;
+  }
+  form a {
+    text-decoration: none;
+    color: rgb(9, 91, 165);
+    font-size: 0.8em;
+  }
+  form a:hover {
+    text-decoration: underline;
+  }
+  form > section > div.infor {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding: 1em;
+    border-bottom: 1px solid #d3d3d3;
+    position: relative;
+  }
+  .infor span,
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+  #EstadoFluxo {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    font-size: 0.7em;
+  }
+  form > section {
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+  
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  form > section.fields {
+    width: 70%;
+  }
+  hr {
+    width: 100%;
+    margin: 2em 0;
+    border: 2px solid lightgray;
+    border-radius: 1px;
+  }
+  footer {
+    height: 4rem;
+    width: 100%;
+    color: #ffffff;
+    background-color: #043c69;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  footer span {
+    padding-right: 2rem;
+  }
+  
+  /* Layout */
+  .flex {
+    display: flex;
+    width: 100%;
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+  }
+  .form-field select option {
+    padding: 0.5em;
+  }
+  .form-field select[multiple] {
+    height: 100px;
+    margin-bottom: 1em;
+  }
+  .form-control {
+    display: block;
+    height: 32px;
+    padding: 2px 8px;
+    margin: 0 0.5em;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,
+      box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  }
+  .form-control:focus {
+    border-color: #66afe9;
+    outline: 4px solid #66afe9;
+    outline: 5px auto #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  textarea.form-control {
+    height: auto;
+  }
+  #btnSend {
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 91, 165);
+    border: 1px solid rgb(8, 78, 141);
+    cursor: pointer;
+    padding: 16px 24px;
+    border-radius: 4px;
+  }
+  #btnSend:disabled {
+    background-color: rgb(104, 138, 168);
+    border: 1px solid rgb(8, 78, 141);
+  }
+  
+  .card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
