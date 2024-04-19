@@ -229,7 +229,7 @@
         </form>
       </main>
       <footer>
-        <span>Hypera Pharma 2024</span>
+        <span>Asalesg Hehehe 2024</span>
       </footer>
     </body>
     <script src="/SiteAssets/SPUtils.js" charset="utf-8"></script>
