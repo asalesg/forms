@@ -8,7 +8,7 @@
       <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Solicitação de Acesso Docnix</title>
+      <title>Solicitação de Acesso ao app</title>
       <link rel="shortcut icon" href="/siteassets/img/favicon.ico" id="favicon" />
       <link href="https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css" rel="stylesheet" crossorigin="anonymous" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -41,7 +41,7 @@
         <form action="" autocomplete="off" id="myForm">
           <section class="fields">
             <div class="infor">
-              <h1>Acessos Docnix</h1>
+              <h1>Acessos app</h1>
               <span>Solicitação de liberação, alteração e revogação de acesso a
                 ferramenta.</span>
               <span id="EstadoFluxo">Novo</span>
