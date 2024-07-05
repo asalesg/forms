@@ -1,8 +1,8 @@
 const LISTA = {
-    SolicitacaoAcesso:  "faa7d700-9746-45e1-9c18-ab85b5d18336",
-    Keyusers: "52c66564-8c03-4897-a5f1-12d8d43e3590",
-    Grupos: "93f3c7ef-ec98-47c4-a4ad-10ce88aa4c97",
-    Atribuicoes: "69cafc12-843b-4412-af24-1af804719e9b",
+    SolicitacaoAcesso:  "###################",
+    Keyusers: "#####################",
+    Grupos: "##################",
+    Atribuicoes: "#########################",
   };
   var REFERENCE_USER = null;
   var ID = null;
@@ -466,7 +466,7 @@ const LISTA = {
   });
   
   function exitRequest() {
-    window.location.href = "https://csc.hypera.com.br/";
+    window.location.href = "##########################";
   }
   
   async function saveRequest() {
